@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="NewYear'sRain">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/artifacts/NewYear_sRain_jar/NewYear'sRain.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/New_years_rain/src/main/java" />
+    </SOURCES>
+  </library>
+</component>
