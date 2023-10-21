@@ -21,7 +21,7 @@ public Pole(int slogn) {
     this.slogn = slogn;
 //    Загрузка изображения шапки из файла
     try{
-        shapka = ImageIO.read((new File("./shapka.png")));
+        shapka = ImageIO.read((new File("Image\\shapka.png")));
     }
 //    Проверка загрузки изображения
     catch(IOException ex) {
@@ -29,7 +29,7 @@ public Pole(int slogn) {
     }
 //    Загрузка изображения фона из файла
     try{
-        fon = ImageIO.read((new File("./fon.png")));
+        fon = ImageIO.read((new File("Image\\fon.png")));
     }
 //        Проверка загрузки изображения
     catch(IOException ex) {
@@ -37,7 +37,7 @@ public Pole(int slogn) {
     }
     try {
 //        Загрузка изображения Окончания игры из файла
-    end_game = ImageIO.read((new File("./end_game.png")));
+    end_game = ImageIO.read((new File("Image\\end_game.png")));
     }
 //    Проверка загрузки изображения
     catch(IOException ex) {
@@ -48,7 +48,7 @@ public Pole(int slogn) {
 //    Загрузка семи изображений подарков
     for(int i=0; i<7; i++){
         try {
-            gamePodar[i] = new Podar(ImageIO.read(new File("./p"+i+".png")));
+            gamePodar[i] = new Podar(ImageIO.read(new File("Image\\p"+i+".png")));
 //            Проверка загрузки изображения
         } catch (IOException ex) {
             throw new RuntimeException("Подарок не загрузился");
